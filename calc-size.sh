@@ -11,3 +11,5 @@ total_size=$(du -sh "$directory" | awk '{print $1}')
 echo "Total size of fies in $directory : $total_size"
 echo "Time displayed"
 
+echo "typing again"
+
