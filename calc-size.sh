@@ -9,4 +9,5 @@
 directory="D:/DevOps/Linux+Commands/shell-scripting"
 total_size=$(du -sh "$directory" | awk '{print $1}')
 echo "Total size of fies in $directory : $total_size"
+echo "Time displayed"
 
